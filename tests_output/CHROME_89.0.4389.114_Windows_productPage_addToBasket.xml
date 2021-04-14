@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="productPage_addToBasket"
+    errors="0" failures="0" hostname="" id="" package="productPage_addToBasket" skipped="0"
+    tests="1" time="23.58" timestamp="">
+  
+    <testcase name="Should go to a product page and add to basket" classname="productPage_addToBasket" time="23.58" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

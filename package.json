@@ -1,17 +1,17 @@
 {
-  "name": "nightwatch-stand-alone",
+  "name": "nightwatchjs-standalone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "test_v": "nightwatch --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@testing-library/nightwatch": "^2.0.0",
-    "chromedriver": "^87.0.1",
+    "chromedriver": "^89.0.0",
     "nightwatch": "^1.5.1"
   }
 }

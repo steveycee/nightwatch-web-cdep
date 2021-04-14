@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="homePageSearch_to_Lister"
+    errors="0" failures="0" hostname="" id="" package="homePageSearch_to_Lister" skipped="0"
+    tests="1" time="5.685" timestamp="">
+  
+    <testcase name="Should be able to go to ao homepage, search and end up on a lister" classname="homePageSearch_to_Lister" time="5.685" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
