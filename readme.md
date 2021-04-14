@@ -1,5 +1,13 @@
 # Nightwatch.js Web CDEP
 
+## Quick start
+
+- Clone this repo
+- Open your tools of choice (I use VS code and its built in terminal)
+- Go to your console/terminal and type `npm i`
+- Still in the console type `npm t`
+- A test _should_ run against ao.com (guess where I work right now?)
+
 ## Who this is for
 
 This is a bit of a playground for me to add in and experiment with tools that might help a web application be more continuously deployable in an automated fashion.
