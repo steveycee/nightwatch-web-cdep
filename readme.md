@@ -28,3 +28,9 @@ So far though, despite some growing pains I'm starting to like NightwatchJS and 
 - Performance testing? can this be done in this context?
 - Integration with cross platform cloud testing tools (like Browserstack)
 - Who knows?!
+
+## Notes:
+
+### To run just the one spec:
+
+`npm t --test specs\demo.js`

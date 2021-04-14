@@ -19,7 +19,6 @@ module.exports = {
         .assert.visible('@productList')
         .assert.urlContains('/l/search/')
         .assert.urlContains(`?search=${searchTerm}`)
-        // .find_in_stock()
         
       browser.end();
     }
