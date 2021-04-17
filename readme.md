@@ -33,4 +33,8 @@ So far though, despite some growing pains I'm starting to like NightwatchJS and 
 
 ### To run just the one spec:
 
-`npm t --test specs\demo.js`
+`npm t --test tests\YOURTESTNAME.js`
+
+e.g.
+
+`npm t --test tests\demo.js`
