@@ -33,7 +33,7 @@ So far though, despite some growing pains I'm starting to like NightwatchJS and 
 
 ### VRT
 
-Created a [branch for Visual Regression testing]('https://github.com/steveycee/nightwatch-web-cdep/tree/image-diff-experiment') and started easy integrating NightwatchJS VRT
+Created a [branch for Visual Regression testing](https://github.com/steveycee/nightwatch-web-cdep/tree/image-diff-experiment) and started easy integrating NightwatchJS VRT
 
 Advantages
 
@@ -45,7 +45,7 @@ Disadvantages
 - Not necessarally right for CI/CD given how Chrome on Linux MAY render differently to Chrome on Windows or Mac OS resulting in false positives
 - General bug bear of not having the option to screenshot diff in a life like end user iOS Safari scenario. Hardly a complaint about the package itself and more just a general lement that its tricky
 
-To set up visit [here]('https://www.npmjs.com/package/nightwatch-vrt').
+To set up visit [here](https://www.npmjs.com/package/nightwatch-vrt).
 
 Notes on set up:
 
