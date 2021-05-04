@@ -54,7 +54,7 @@ default: {
   },
 ```
 
-and then outside of the module.exports block the following function
+and then outside of the module.exports block paste in the following function
 
 ```
 function generateScreenshotFilePath(nightwatchClient, basePath, fileName) {
