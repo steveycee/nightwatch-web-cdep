@@ -12,4 +12,6 @@
 
 This is a super simplified basic ready to run version of NigtwatchJS with no bells or whistles using the page object pattern.
 
-If there's something interesting in here though its also for you. I'll try my best to do clear write ups of what I do, how I do it and why. Naturally if you've got any feedback please drop me a message on **[Twitter](https://twitter.com/steveycee)** 🐦
+## Feedback
+
+If you've got any feedback please drop me a message on **[Twitter](https://twitter.com/steveycee)** 🐦
