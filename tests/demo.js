@@ -1,25 +1,9 @@
 module.exports = {
-    'Should be able to go to ao homepage, search and end up on a lister': function (browser) {
-      
-      const homePage = browser.page.homePage_po();
-      const header = browser.page.header_po();
-      const lister = browser.page.lister_po();
-      
-      const searchTerm = 'bar';
+  "Demo test": function (browser) {
+    const examplePage = browser.page.example_page_po();
 
-      homePage
-        .navigate()
+    examplePage.navigate().assert.visible("@button");
 
-      header
-        .assert.visible('@search')
-        .setValue('@search', searchTerm)
-        .click('@search_submit');
-  
-      lister
-        .assert.visible('@productList')
-        .assert.urlContains('/l/search/')
-        .assert.urlContains(`?search=${searchTerm}`)
-        
-      browser.end();
-    }
-  };
+    browser.end();
+  },
+};
