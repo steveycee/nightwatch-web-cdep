@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "nightwatch",
-    "test_v": "nightwatch --verbose"
+    "test_v": "nightwatch --verbose",
+    "test:browserstack": "nightwatch -c nightwatch.conf.browserstack.js --disable-logging",
+    "test:parallel": "nightwatch -c nightwatch.conf.parallel.js --disable-logging -e chrome,firefox,safari,ie"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^89.0.0",
-    "nightwatch": "^1.6.2"
+    "nightwatch": "^1.6.2",
+    "dotenv": "^8.2.0"
   }
 }
