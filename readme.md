@@ -1,4 +1,4 @@
-# Nightwatch.js Web CDEP: Basic Branch
+# Nightwatch.js Web CDEP: Conditional Test Branch
 
 ## Quick start
 
@@ -10,7 +10,11 @@
 
 ## Who this is for
 
-This is a super simplified basic ready to run version of NigtwatchJS with no bells or whistles using the page object pattern.
+This only thing this branch does is demonstrate a conditional test based on the properties of viewport (its width).
+
+### The use case
+
+In the case where we have 1 page that has an element visible on desktop but not on mobile and we want to use a single test script. You might want to use the one script when using Browserstack where you are firing up tests with against a list of different devices/viewports but haven't been too specific about having seperate mobile and desktop configs and scripts.
 
 ## Feedback
 
