@@ -5,14 +5,16 @@ module.exports = {
   webdriver: {
     start_process: true,
     port: 9515,
-    server_path: require("chromedriver").path,
+    server_path:
+      "C:/Source/github/nightwatch-web-cdep/node_modules/iedriver/lib/iedriver/IEDriverServer.exe",
+    // server_path: require("iedriver").path,
     cli_args: ["--verbose"],
   },
 
   test_settings: {
     default: {
       desiredCapabilities: {
-        browserName: "chrome",
+        browserName: "internet explorer",
       },
     },
   },
